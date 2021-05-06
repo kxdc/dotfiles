@@ -1,5 +1,26 @@
 " init.vim
 
+" Options -----------------------------------------------------------------
+
+set noswapfile
+set lazyredraw
+set title
+set nobackup
+set nowritebackup
+
+set ignorecase
+set smartcase
+set clipboard=unnamed
+
+set number
+set nowrap
+set showmatch
+set hidden
+set termguicolors
+set background=dark
+set signcolumn=yes
+
+
 " Plugins -----------------------------------------------------------------
 call plug#begin('~/.config/nvim/plugged/')
 
