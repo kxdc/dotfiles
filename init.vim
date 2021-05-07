@@ -1,5 +1,24 @@
 " init.vim
 
+" Keybindings ------------------------------------------
+
+let mapleader = "\<space>"
+
+noremap <leader>wh <C-w>h
+noremap <leader>wj <C-w>j
+noremap <leader>wk <C-w>k
+noremap <leader>wl <C-w>l
+
+inoremap jk <ESC>
+vnoremap jk <ESC>
+
+noremap H ^
+noremap L $
+
+nnoremap ? ?\v
+nnoremap / /\v
+cnoremap %s/ %sm/
+
 " Options ----------------------------------------------
 
 set noswapfile
