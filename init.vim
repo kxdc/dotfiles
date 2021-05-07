@@ -1,15 +1,17 @@
 " init.vim
 
-" Options -----------------------------------------------------------------
+" Options ----------------------------------------------
 
 set noswapfile
 set lazyredraw
 set title
 set nobackup
 set nowritebackup
+set mousehide
 
 set ignorecase
 set smartcase
+set gdefault
 set clipboard=unnamed
 
 set number
@@ -20,8 +22,19 @@ set termguicolors
 set background=dark
 set signcolumn=yes
 
+set splitright
+set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set cmdheight=2
+set textwidth=80
+set foldlevelstart=10
+set foldnestmax=10
+set foldmethod=indent
 
-" Plugins -----------------------------------------------------------------
+
+" Plugins ----------------------------------------------
 call plug#begin('~/.config/nvim/plugged/')
 
     " Colorschemes
