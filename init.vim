@@ -11,13 +11,22 @@ noremap <leader>wl <C-w>l
 
 inoremap jk <ESC>
 vnoremap jk <ESC>
+nnoremap j gj
+nnoremap k gk
 
 noremap H ^
 noremap L $
 
+cnoremap %s/ %sm/
+nnoremap $ <nop>
+nnoremap ^ <nop>
 nnoremap ? ?\v
 nnoremap / /\v
-cnoremap %s/ %sm/
+nnoremap <left> :bp<cr>
+nnoremap <right> :bn<cr>
+
+inoremap <c-a> <esc>I
+inoremap <c-e> <esc>A"`
 
 " Options ----------------------------------------------
 
