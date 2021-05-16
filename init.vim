@@ -7,6 +7,8 @@ let mapleader = "\<space>"
 nnoremap <leader>fed :e $MYVIMRC<cr>
 nnoremap <leader>feD :vsplit $MYVIMRC<cr>
 nnoremap <leader>fer :source $MYVIMRC<cr>
+nnoremap <leader>fs :w<cr>
+nnoremap <leader>fS :wa<cr>
 
 noremap <leader>wh <C-w>h
 noremap <leader>wj <C-w>j
