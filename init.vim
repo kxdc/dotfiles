@@ -10,6 +10,10 @@ nnoremap <leader>fer :source $MYVIMRC<cr>
 nnoremap <leader>fs :w<cr>
 nnoremap <leader>fS :wa<cr>
 
+nnoremap <leader>tr :set relativenumber!<cr>
+nnoremap <leader>tn :set number!<cr>
+nnoremap <leader>tw :set wrap!<cr>
+
 noremap <leader>wh <C-w>h
 noremap <leader>wj <C-w>j
 noremap <leader>wk <C-w>k
