@@ -34,6 +34,9 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 " Nerd Tree switch
 nnoremap <leader>pt :NERDTreeToggleVCS<cr>
 
+" Undo tree
+nnoremap <leader>u :GundoToggle<cr>
+
 " Options ----------------------------------------------
 
 set noswapfile
