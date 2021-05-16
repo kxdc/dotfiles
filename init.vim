@@ -16,7 +16,6 @@ nnoremap k gk
 
 noremap H ^
 noremap L $
-
 cnoremap %s/ %sm/
 nnoremap $ <nop>
 nnoremap ^ <nop>
@@ -27,6 +26,10 @@ nnoremap <right> :bn<cr>
 
 inoremap <c-a> <esc>I
 inoremap <c-e> <esc>A"`
+
+" Tab and Shift-Tab for completion list
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 " Options ----------------------------------------------
 
