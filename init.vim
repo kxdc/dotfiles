@@ -4,6 +4,10 @@
 
 let mapleader = "\<space>"
 
+nnoremap <leader>fed :e $MYVIMRC<cr>
+nnoremap <leader>feD :vsplit $MYVIMRC<cr>
+nnoremap <leader>fer :source $MYVIMRC<cr>
+
 noremap <leader>wh <C-w>h
 noremap <leader>wj <C-w>j
 noremap <leader>wk <C-w>k
@@ -34,7 +38,7 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 " Nerd Tree switch
 nnoremap <leader>pt :NERDTreeToggleVCS<cr>
 
-" Undo tree
+" Undo Tree switch
 nnoremap <leader>u :GundoToggle<cr>
 
 " Options ----------------------------------------------
