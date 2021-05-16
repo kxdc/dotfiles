@@ -37,6 +37,10 @@ nnoremap <right> :bn<cr>
 inoremap <c-a> <esc>I
 inoremap <c-e> <esc>A"`
 
+nnoremap "" "0"
+nnoremap <leader>bY gg"*yGgg"+yG
+nnoremap vv ^vg_
+
 " Tab and Shift-Tab for completion list
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
