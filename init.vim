@@ -68,6 +68,11 @@ nnoremap <leader>hh :Helptags<cr>
 
 " Options ----------------------------------------------
 
+set background=dark
+if exists('g:fvim_loaded')
+    colorscheme onedark
+endif
+
 set noswapfile
 set lazyredraw
 set title
@@ -85,7 +90,6 @@ set nowrap
 set showmatch
 set hidden
 set termguicolors
-set background=dark
 set signcolumn=yes
 
 set splitright
