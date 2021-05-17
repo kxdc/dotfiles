@@ -51,6 +51,21 @@ nnoremap <leader>pt :NERDTreeToggleVCS<cr>
 " Undo Tree switch
 nnoremap <leader>u :GundoToggle<cr>
 
+" Fzf
+nnoremap <leader>? :Maps<cr>
+nnoremap <leader>ss :BLines<cr>
+nnoremap <leader>sS :Lines<cr>
+nnoremap <leader>Ts :Colors<cr>
+nnoremap <leader>pf :GFiles<cr>
+nnoremap <leader>pF :Files<cr>
+nnoremap <leader>pp :RG<cr>
+nnoremap <leader>tt :RG TODO<cr>
+nnoremap <leader>tf :RG FIXME<cr>
+nnoremap <leader>ff :Files ~/code<cr>
+nnoremap <leader>fm :Marks<cr>
+nnoremap <leader>pr :History<cr>
+nnoremap <leader>hh :Helptags<cr>
+
 " Options ----------------------------------------------
 
 set noswapfile
