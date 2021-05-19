@@ -189,3 +189,10 @@ call plug#begin('~/.config/nvim/plugged/')
     Plug 'tpope/vim-unimpaired'
 
 call plug#end()
+
+
+" More Settings ------------------------------------------
+
+if exists('g:fvim_loaded')
+    nnoremap <leader>TF :FVimToggleFullScreen<cr>
+endif
