@@ -196,3 +196,10 @@ call plug#end()
 if exists('g:fvim_loaded')
     nnoremap <leader>TF :FVimToggleFullScreen<cr>
 endif
+
+" Set grep program to ripgrep if available and set the format
+if executable('rg')
+    set grepprg=rg\ --no-heading\ --vimgrep
+    set grepformat=%f:%l:%c:%m
+endif
+
