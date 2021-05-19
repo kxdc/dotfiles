@@ -41,6 +41,13 @@ nnoremap "" "0"
 nnoremap <leader>bY gg"*yGgg"+yG
 nnoremap vv ^vg_
 
+" Quickfix for the last search
+nnoremap <silent> <leader>en :lopen<cr> :lnext<cr>
+nnoremap <silent> <leader>ep :lopen<cr> :lprevious<cr>
+nnoremap <silent> <leader>ec :lclose<cr>
+nnoremap <silent> <leader>ls :mksession!<cr>
+nnoremap <silent> <leader>'  :split<cr> :terminal<cr> :resize 12<cr>i
+
 " Tab and Shift-Tab for completion list
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
