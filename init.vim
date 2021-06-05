@@ -242,3 +242,33 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
+" Show all diagnostics.
+nnoremap <silent><nowait> <leader>ca  :<C-u>CocList diagnostics<cr>
+
+" Manage extensions.
+nnoremap <silent><nowait> <leader>ce  :<C-u>CocList extensions<cr>
+
+" Show commands.
+nnoremap <silent><nowait> <leader>cc  :<C-u>CocList commands<cr>
+
+" Find symbol of current document.
+nnoremap <silent><nowait> <leader>co  :<C-u>CocList outline<cr>
+
+" Search workspace symbols.
+nnoremap <silent><nowait> <leader>cs  :<C-u>CocList -I symbols<cr>
+
+" Do default action for next item.
+nnoremap <silent><nowait> <leader>cj  :<C-u>CocNext<cr>
+
+" Do default action for previous item.
+nnoremap <silent><nowait> <leader>ck  :<C-u>CocPrev<cr>
+
+" Resume latest coc list.
+nnoremap <silent><nowait> <leader>cp  :<C-u>CocListResume<cr>
+
+" Open yank list
+nnoremap <silent><nowait> <leader>cy  :<C-u>CocList -A --normal yank<cr>
+
+" Open Vista using Coc symbols
+nnoremap <silent><nowait> <leader>cv  :Vista coc<cr>
+
