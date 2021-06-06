@@ -242,6 +242,10 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
+" Formatting selected code.
+xmap <leader>f  <Plug>(coc-format-selected)
+nmap <leader>f  <Plug>(coc-format-selected)
+
 " Show all diagnostics.
 nnoremap <silent><nowait> <leader>ca  :<C-u>CocList diagnostics<cr>
 
