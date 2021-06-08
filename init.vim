@@ -206,6 +206,16 @@ endif
 " C++ format on save
 autocmd BufWritePost *.cpp :call CocAction('format') 
 
+" Use fold markers when editing vim files
+au BufNewFile,BufRead *.vim set foldmethod=marker
+
+" Properly match comments in json files
+autocmd FileType json syntax match Comment +\/\/.\+$+
+
+" Toggle relativenumber in insert mode and regular line numbers in normal mode
+autocmd InsertEnter * silent! :set norelativenumber
+autocmd InsertLeave,BufNewFile,VimEnter * silent! :set relativenumber
+
 
 " Coc.nvim Settings --------------------------------------
 
