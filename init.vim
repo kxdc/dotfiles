@@ -203,6 +203,8 @@ if executable('rg')
     set grepformat=%f:%l:%c:%m
 endif
 
+" C++ format on save
+autocmd BufWritePost *.cpp :call CocAction('format') 
 
 
 " Coc.nvim Settings --------------------------------------
