@@ -109,3 +109,8 @@ alias nim='nvim'
 
 eval "$(starship init zsh)"
 
+export PATH="$HOME/.poetry/bin:$PATH"
+export PATH=~/.pyenv/bin:$PATH
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
