@@ -107,3 +107,5 @@ export LANG=en_US.UTF-8
 
 alias nim='nvim'
 
+eval "$(starship init zsh)"
+
