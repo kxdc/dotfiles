@@ -136,3 +136,5 @@ export FZF_DEFAULT_OPTS="--height=70% \
                                     --line-range :500 \
                                     {}' \
                          --preview-window=up:70%:wrap"
+export FZF_CTRL_T_COMMAND='$FZF_DEFAULT_COMMAND'
+
