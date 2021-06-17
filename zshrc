@@ -129,6 +129,8 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
 export FZF_DEFAULT_COMMAND='rg --files'
+export FZF_CTRL_T_COMMAND='$FZF_DEFAULT_COMMAND'
+export FZF_COMPLETION_TRIGGER='~~'
 export FZF_DEFAULT_OPTS="--height=70% \
                          --preview='/opt/homebrew/bin/bat \
                                     --style=numbers \
@@ -136,5 +138,4 @@ export FZF_DEFAULT_OPTS="--height=70% \
                                     --line-range :500 \
                                     {}' \
                          --preview-window=up:70%:wrap"
-export FZF_CTRL_T_COMMAND='$FZF_DEFAULT_COMMAND'
 
