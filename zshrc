@@ -128,6 +128,7 @@ export PATH=~/.pyenv/bin:$PATH
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
+export FZF_DEFAULT_COMMAND='rg --files'
 export FZF_DEFAULT_OPTS="--height=70% \
                          --preview='/opt/homebrew/bin/bat \
                                     --style=numbers \
