@@ -129,4 +129,9 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
 export FZF_DEFAULT_OPTS="--height=70% \
-                         --preview-window=right:70%:wrap"
+                         --preview='/opt/homebrew/bin/bat \
+                                    --style=numbers \
+                                    --color=always \
+                                    --line-range :500 \
+                                    {}' \
+                         --preview-window=up:70%:wrap"
