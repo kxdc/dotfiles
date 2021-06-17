@@ -132,7 +132,7 @@ export FZF_DEFAULT_COMMAND='rg --files'
 export FZF_CTRL_T_COMMAND='$FZF_DEFAULT_COMMAND'
 export FZF_COMPLETION_TRIGGER='~~'
 export FZF_DEFAULT_OPTS="--height=70% \
-                         --preview='/opt/homebrew/bin/bat \
+                         --preview='`which bat` \
                                     --style=numbers \
                                     --color=always \
                                     --line-range :500 \
