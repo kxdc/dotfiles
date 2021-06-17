@@ -128,3 +128,5 @@ export PATH=~/.pyenv/bin:$PATH
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
+export FZF_DEFAULT_OPTS="--height=70% \
+                         --preview-window=right:70%:wrap"
