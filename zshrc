@@ -119,6 +119,7 @@ export LANG=en_US.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias nim='nvim'
+alias ls='exa -hl'
 
 eval "$(starship init zsh)"
 
