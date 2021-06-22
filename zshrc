@@ -142,3 +142,5 @@ export FZF_DEFAULT_OPTS='--color=fg:#f8f8f2,bg:#282a36,hl:#bd93f9 --color=fg+:#f
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+source /Users/kxdc/.config/broot/launcher/bash/br
+
