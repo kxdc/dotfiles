@@ -1,0 +1,19 @@
+[http]
+	sslVerify = true
+[user]
+	name = kxdc
+	email = kvuexlu@gmail.com
+[core]
+	editor = nvim
+[pager]
+    diff = delta
+    log = delta
+    reflog = delta
+    show = delta
+[delta]
+    plus-style = "syntax #012800"
+    minus-style = "syntax #340001"
+    syntax-theme = Dracula
+    navigate = true
+[interactive]
+    diffFilter = delta --color-only
