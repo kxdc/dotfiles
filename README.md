@@ -4,7 +4,11 @@ Personal dotfiles and preferences
 
 ## Contents
 
-> gitconfig -> ~/.gitconfig
-> tmux.conf -> ~/.tmux.conf
-> zshrc -> ~/.zshrc
-> init.vim -> ~/.config/nvim/init.vim
+ 1. gitconfig -> ~/.gitconfig
+
+ 2. tmux.conf -> ~/.tmux.conf
+
+ 3. zshrc -> ~/.zshrc
+
+ 4. init.vim -> ~/.config/nvim/init.vim
+
