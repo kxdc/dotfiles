@@ -30,13 +30,6 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-export LANG=en_US.UTF-8
-
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
     export EDITOR='vim'
@@ -47,7 +40,7 @@ fi
 # For a full list of active aliases, run `alias`.
 alias nim='nvim'
 alias ls='exa -hl'
-
+export LANG=en_US.UTF-8
 eval "$(starship init zsh)"
 
 export PATH="$HOME/.poetry/bin:$PATH"
