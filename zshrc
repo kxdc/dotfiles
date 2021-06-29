@@ -90,3 +90,10 @@ alias dkcpup="docker-compose up -d"
 alias dkcpdown="docker-compose down"
 alias dkcpstart="docker-compose start"
 alias dkcpstop="docker-compose stop"
+
+# Kubectl alias
+alias kdev='kubectl -n dev'
+alias kpg='kubectl -n playground'
+alias ktest='kubectl -n test'
+alias kprod='kubectl -n prod'
+alias kpreprod='kubectl -n preprod'
