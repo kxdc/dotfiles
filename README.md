@@ -1,6 +1,6 @@
 # dotfiles
 
-Personal dotfiles and preferences
+Personal dotfiles and preferences, including as show in `Contents`.
 
 ## Contents
 
