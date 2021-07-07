@@ -6,6 +6,7 @@
 
 alias nim='nvim'
 alias ls='exa -hl'
+alias fgrep='fgrep --color=auto'
 alias d='dirs -v'
 for index ({1..9}) alias "$index"="cd +${index}"; unset index
 
@@ -15,10 +16,13 @@ for index ({1..9}) alias "$index"="cd +${index}"; unset index
 
 alias gs='git status'
 alias ga='git add'
+alias gd='git diff'
 alias gp='git push'
 alias gpo='git push origin'
 alias gc='git commit'
 alias gco='git checkout '
+alias gb='git branch '
+alias gbr='git branch -r'
 alias gl='git log'
 alias glo='git log --pretty="oneline"'
 
