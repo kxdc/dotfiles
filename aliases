@@ -1,8 +1,14 @@
 # For a full list of active aliases, run `alias`.
+#
 alias nim='nvim'
 alias ls='exa -hl'
 
-# Docker alias
+# Git aliases
+alias gs='git status'
+alias ga='git add'
+alias gp='git push'
+
+# Docker aliases
 alias dkps="docker ps"
 alias dkst="docker stats"
 alias dkpsa="docker ps -a"
@@ -12,7 +18,7 @@ alias dkcpdown="docker-compose down"
 alias dkcpstart="docker-compose start"
 alias dkcpstop="docker-compose stop"
 
-# Kubectl alias
+# Kubectl aliases
 alias kdev='kubectl -n dev'
 alias kpg='kubectl -n playground'
 alias ktest='kubectl -n test'
