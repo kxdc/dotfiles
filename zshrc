@@ -37,6 +37,7 @@ else
     export EDITOR='nim'
 fi
 
+setopt HIST_SAVE_NO_DUPS
 export LANG=en_US.UTF-8
 eval "$(starship init zsh)"
 
