@@ -12,3 +12,5 @@ Personal dotfiles and preferences, including as show in `Contents`.
 
  4. init.vim -> ~/.config/nvim/init.vim
 
+ 5. aliases -> ~/.aliases
+
