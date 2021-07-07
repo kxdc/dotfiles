@@ -7,6 +7,11 @@ alias ls='exa -hl'
 alias gs='git status'
 alias ga='git add'
 alias gp='git push'
+alias gpo='git push origin'
+alias gc='git commit'
+alias gco='git checkout '
+alias gl='git log'
+alias glo='git log --pretty="oneline"'
 
 # Docker aliases
 alias dkps="docker ps"
