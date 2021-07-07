@@ -38,7 +38,11 @@ else
 fi
 
 setopt HIST_SAVE_NO_DUPS
+setopt AUTO_PUSHD           # Push the current dir visited on the stack.
+setopt PUSHD_IGNORE_DUPS    # Do not store duplicates in the stack.
+setopt PUSHD_SILENT         # Do not print dir stack after pushd or popd.
 export LANG=en_US.UTF-8
+
 eval "$(starship init zsh)"
 
 export PATH="$HOME/.poetry/bin:$PATH"
