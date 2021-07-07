@@ -37,9 +37,6 @@ else
     export EDITOR='nim'
 fi
 
-# For a full list of active aliases, run `alias`.
-alias nim='nvim'
-alias ls='exa -hl'
 export LANG=en_US.UTF-8
 eval "$(starship init zsh)"
 
@@ -79,21 +76,5 @@ rga-fzf() {
 	xdg-open "$file"
 }
 
-source /Users/kxdc/.config/broot/launcher/bash/br
-
-# Docker alias
-alias dkps="docker ps"
-alias dkst="docker stats"
-alias dkpsa="docker ps -a"
-alias dkimgs="docker images"
-alias dkcpup="docker-compose up -d"
-alias dkcpdown="docker-compose down"
-alias dkcpstart="docker-compose start"
-alias dkcpstop="docker-compose stop"
-
-# Kubectl alias
-alias kdev='kubectl -n dev'
-alias kpg='kubectl -n playground'
-alias ktest='kubectl -n test'
-alias kprod='kubectl -n prod'
-alias kpreprod='kubectl -n preprod'
+source $HOME/.config/broot/launcher/bash/br
+source $HOME/.aliases
