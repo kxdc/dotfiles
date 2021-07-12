@@ -8,6 +8,7 @@ alias nim='nvim'
 alias ls='exa -hl'
 alias fgrep='fgrep --color=auto'
 alias ping='prettyping --nolegend'
+alias du="ncdu --color dark -rr -x --exclude .git --exclude node_modules"
 alias d='dirs -v'
 for index ({1..9}) alias "$index"="cd +${index}"; unset index
 
