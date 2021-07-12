@@ -11,6 +11,14 @@ alias ping='prettyping --nolegend'
 alias d='dirs -v'
 for index ({1..9}) alias "$index"="cd +${index}"; unset index
 
+# +----------+
+# | archives |
+# +----------+
+
+alias ltar="tar -ztvf"
+alias untar="tar -zxvf"
+alias atar="tar -cvzf"
+
 # +-----+
 # | git |
 # +-----+
