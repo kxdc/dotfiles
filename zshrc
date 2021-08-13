@@ -81,5 +81,8 @@ rga-fzf() {
 	xdg-open "$file"
 }
 
+# bash execute
+bf() { bash "$(fzf)" }
+
 source $HOME/.config/broot/launcher/bash/br
 source $HOME/.aliases
