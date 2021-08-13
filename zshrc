@@ -87,5 +87,8 @@ bf() { bash "$(fzf)" }
 # kill a process
 fkill() {kill $(ps aux | fzf | awk '{print($2)}')}
 
+# fuzzy one line
+fzol() {source activate "$(conda info --envs | fzf | awk '{print $})}
+
 source $HOME/.config/broot/launcher/bash/br
 source $HOME/.aliases
