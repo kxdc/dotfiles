@@ -84,5 +84,8 @@ rga-fzf() {
 # bash execute
 bf() { bash "$(fzf)" }
 
+# kill a process
+fkill() {kill $(ps aux | fzf | awk '{print($2)}')}
+
 source $HOME/.config/broot/launcher/bash/br
 source $HOME/.aliases
