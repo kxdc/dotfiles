@@ -32,9 +32,14 @@ alias gpo='git push origin'
 alias gc='git commit'
 alias gco='git checkout '
 alias gb='git branch '
+alias gba='git branch -a'
 alias gbr='git branch -r'
+alias gsta='git stash'
+alias gstp='git stash pop'
+alias gstd='git stash drop'
 alias gl='git log'
-alias glo='git log --pretty="oneline"'
+alias glo='git log --oneline --decorate --color'
+alias glog='git log --oneline --decorate --color --graph'
 
 # +--------+
 # | Docker |
