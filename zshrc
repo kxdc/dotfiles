@@ -30,6 +30,7 @@ plugins=(
 
 # Load all of the plugins that were defined in ~/.zshrc
 # brew install coreutils if displays "command not found: gdate"
+# For profiling zsh startup time, run "time  zsh -i -c exit"
 for plugin ($plugins); do
   timer=$(($(gdate +%s%N)/1000000))
   if [ -f $ZSH_CUSTOM/plugins/$plugin/$plugin.plugin.zsh ]; then
